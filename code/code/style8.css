@@ -54,3 +54,135 @@ nav ul li a{
     text-transform: uppercase;
     font-weight: bold;
 }
+nav ul li a:hover{
+     color: #555;
+}
+.france-map{
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto; 
+    padding: 1em;
+    position: relative;
+}
+.france-map img{
+    width: 75%;
+    object-fit: contain; 
+    position: absolute; 
+    top: 250px;
+    left: 450px;
+}
+.title{
+    text-align: center; 
+    color: #38383e;
+    position: absolute;
+    top: 190px;
+    left: 1500px;    
+}
+.pin{
+    background: none;
+    position: absolute; 
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+}
+.pin::before{
+    content:'';
+    background: #878E76; 
+    position: absolute; 
+    top: 180%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.marseille{
+position: absolute;
+    color: white;
+    top: 980px;
+    right:20px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.marseille:hover{
+   color: #555;
+    
+}
+
+.lyon{
+    position: absolute;
+    top: 750px;
+    text-decoration: none; 
+    color: white; 
+    font-size: 25px;
+    right: 80px;
+}
+.lyon:hover{
+    color: #555;
+     
+ }
+ .toulouse{
+    position: absolute;
+    top: 890px;
+    text-decoration: none; 
+    color: white; 
+    font-size: 25px;
+    right: 320px;
+}
+.toulouse:hover{
+    color: #555;
+     
+ }
+.posAbs{
+    position: absolute;
+    width: 450px;
+    height: 700px;
+    background: #878E76;;
+    margin: auto;
+    top: 260px;
+    left: 190px;
+    border-radius: 20px;
+}
+.devant{
+    position: absolute; 
+    height: 280px;
+    left: 205px;
+    top: 275px;
+    border-radius: 20px;
+
+}
+.adresse{
+    position: absolute; 
+    font-size: 25px;
+    color: white; 
+    top: 580px;
+    left: 265px;
+}
+.titre-horaires{
+    position: absolute; 
+    font-size: 20px;
+    color: rgb(47, 47, 47); 
+    top: 620px;
+    left: 290px;
+}
+.horaires{
+    position: absolute; 
+    font-size: 20px;
+    color: rgb(255, 255, 255); 
+    top: 650px;
+    left: 290px;
+}
+.numdetel{
+    position: absolute; 
+    font-size: 20px;
+    color: rgb(47, 47, 47); 
+    top: 840px;
+    left: 290px;
+}
+.num{
+    position: absolute; 
+    font-size: 20px;
+    color: rgb(255, 255, 255); 
+    top: 870px;
+    left: 290px;
+}

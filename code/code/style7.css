@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tauri&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tauri&family=Tienne:wght@400;700;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{ 
+    font-family: 'Roboto Condensed';
+    background-color: #eeeeea;
+
+}
+nav{
+    background: #878E76;
+    height: 100px;
+    width: 100%px;
+}
+label.logo{
+    color: white;
+    font-size: 60px;
+    line-height: px;
+    padding: 0 70px;
+    font-family: 'M PLUS Rounded 1c';
+    font-weight: bold;
+    float: left;
+}
+nav ul{
+    float: left; 
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block; 
+    line-height: 75px;
+    margin: 0 5px;
+}
+nav ul li a{
+    position: relative;
+    text-decoration: none; 
+    color: #ffff;
+    width: 100px;
+    display: block;
+    padding: 10px 120px;
+    font-size: 20px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.posAbs{
+    position: absolute;
+    left: 250px;
+    top: 165px;
+    width: 275px;
+    height: 80%;
+    background: #38383e;
+    border-radius: 20px;
+}
+.posAbs ul{
+    float: left;
+    margin-right: 20px;
+}
+.posAbs li{
+    display: inline-block; 
+    line-height: 75px;
+    margin: 0 5px;
+}
+.posAbs li a{
+    position: relative;
+    text-decoration: none; 
+    color: #ffff;
+    width: 500px;
+    display: block;
+    padding: 10px 120px;
+    font-size: 20px;
+    border-radius: 0px;
+    right: 110px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.posAbs ul li a:hover{
+    color: #878e76;
+}
+p1{
+    position: absolute; 
+    color: #38383e;
+    width: 500px;
+    font-weight: bold;
+    font-size: 50px;
+    top: 25px;
+    left: 350px;
+}
+p2{
+    position: absolute; 
+    color: grey;
+    width: 1300px;
+    font-size: 25px;
+    top: 90px;
+    left: 352px;
+}
+p3{
+    position: absolute; 
+    color: rgb(139, 139, 139);
+    width: 1300px;
+    font-size: 20px;
+    top: 130px;
+    left: 352px;
+}
+p4{
+    position: absolute; 
+    color: grey;
+    width: 1250px;
+    font-size: 25px;
+    top: 190px;
+    left: 352px;
+}
+p5{
+    position: absolute; 
+    color: rgb(139, 139, 139);
+    width: 1250px;
+    font-size: 20px;
+    top: 40px;
+    left: 3px;
+}
+p6{
+    position: absolute; 
+    color: grey;
+    width: 1250px;
+    font-size: 25px;
+    top: 120px;
+    left: 0px;
+}
+p7{
+    position: absolute; 
+    color: rgb(139, 139, 139);
+    width: 1250px;
+    font-size: 20px;
+    top: 160px;
+    left: 3px;
+}
+p8{
+    position: absolute; 
+    color: #38383e;
+    width: 500px;
+    font-weight: bold;
+    font-size: 50px;
+    top: 240px;
+    left: 0px;
+}
+p9{
+    position: absolute; 
+    color: grey;
+    width: 1250px;
+    font-size: 25px;
+    top: 310px;
+    left: 3px;
+}
+p10{
+    position: absolute;
+    color: rgb(139, 139, 139);
+    width: 1250px;
+    font-size: 20px;
+    top: 350px;
+    left: 3px;
+}
+p11{
+    position: absolute; 
+    color: grey;
+    width: 1250px;
+    font-size: 25px;
+    top: 480px;
+    left: 3px;
+}
+p12{
+    position: absolute; 
+    color: rgb(139, 139, 139);
+    width: 1250px;
+    font-size: 20px;
+    top: 520px;
+    left: 3px;
+}
